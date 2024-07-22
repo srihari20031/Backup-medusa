@@ -9,6 +9,8 @@ import { ProductSelector as MedusaProductSelector } from "@medusajs/medusa/dist/
 import type { User } from "../models/user";
 import type { Product } from "../models/product";
 
+import ProductService1 from "medusa-custom-attributes"
+
 // We override the type definition so it will not throw TS errors in the `create` method
 type CreateProductInput = {
   store_id?: string;
